@@ -41,7 +41,7 @@ import reactDom from 'eslint-plugin-react-dom'
 export default tseslint.config({
   plugins: {
     // Add the react-x and react-dom plugins
-    'react-x': reactX,
+    'react-x': reactX,,
     'react-dom': reactDom,
   },
   rules: {
