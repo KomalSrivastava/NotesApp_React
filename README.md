@@ -19,7 +19,7 @@ export default tseslint.config({
     // Alternatively, use this for stricter rules
     ...tseslint.configs.strictTypeChecked,,
     // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
+    ...tseslint.configs.stylisticTypeChecked,,
   ],
   languageOptions: {
     // other options...
